@@ -1,0 +1,33 @@
+.color-custom {
+  background-color: #FFEDED; 
+}
+
+  .color2-custom{
+    background-color: #AFD5D3;
+    padding-top: 10vh; 
+    padding-bottom: 11vh; 
+    padding-left: 10vw; 
+    padding-right: 10vw; 
+  }
+
+  .color3-custom{
+    background-color: #AFD5D3;
+  }
+
+.ml-custom{
+  color: #FF8D8D;   
+}
+
+  .ml-custom2{
+    background-color: #FF8D8D;
+  }
+
+.padding-custom{
+  padding-top: 12vh; 
+  padding-bottom: 12vh; 
+  padding-left: 10vw; 
+  padding-right: 10vw; 
+  height: 69.7vh; 
+}
+
+  
