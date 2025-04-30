@@ -10,10 +10,6 @@
     padding-right: 10vw; 
   }
 
-  .color3-custom{
-    background-color: #AFD5D3;
-  }
-
 .ml-custom{
   color: #FF8D8D;   
 }
@@ -30,4 +26,15 @@
   height: 69.7vh; 
 }
 
-  
+.login-container {
+  height: 100%;
+}
+
+.login-box {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
