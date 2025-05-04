@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Administrador</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .login-admin-box {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .btn-admin {
+      border-radius: 50px;
+      font-weight: bold;
+    }
+
+    h4 {
+      color: #343a40;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="login-admin-box">
+      <h4 class="text-center mb-4">Login Administrador</h4>
+      <form>
+        <div class="form-group">
+          <label for="adminEmail">Email de Administrador</label>
+          <input type="email" class="form-control" id="adminEmail" placeholder="admin@empresa.com" required>
+        </div>
+        <div class="form-group">
+          <label for="adminSenha">Senha</label>
+          <input type="password" class="form-control" id="adminSenha" placeholder="Digite sua senha" required>
+        </div>
+        <button type="submit" class="btn btn-dark btn-block btn-admin">Acessar Painel</button>
+        <small class="form-text text-center mt-3 text-muted">
+          Acesso restrito. Contate o suporte se tiver problemas.
+        </small>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
