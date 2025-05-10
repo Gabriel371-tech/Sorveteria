@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Lateral - Produtos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+
+</head>
+<body>
+
+  <div class="sidebar">
+    <a href="#" data-toggle="tooltip" title="Início"><i class="fas fa-home"></i></a>
+    <a href="#" data-toggle="tooltip" title="Perfil"><i class="fas fa-user"></i></a>
+    <a href="#" data-toggle="tooltip" title="Configurações"><i class="fas fa-cog"></i></a>
+    <a href="carrinho_compras.html" data-toggle="tooltip" title="Carrinho de Compras"><i class="fas fa-shopping-cart"></i></a>
+    <a href="home.html" data-toggle="tooltip" title="Sair"><i class="fas fa-sign-out-alt"></i></a>
+  </div>
+
+  
+<body>
+
+  <div class="container mt-4">
+    <h2 class="mb-4">Produtos para Comprar</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/350x200.png?text=Sorvete+Chocolate" class="card-img-top product-img" alt="Sorvete de Chocolate">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Chocolate</h5>
+            <p class="card-text">Delicioso sorvete de chocolate com pedaços de chocolate amargo.</p>
+            <p><strong>R$ 9.99</strong></p>
+            <button class="btn btn-buy">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/350x200.png?text=Sorvete+Morango" class="card-img-top product-img" alt="Sorvete de Morango">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Morango</h5>
+            <p class="card-text">Sorvete de morango natural, feito com morangos frescos.</p>
+            <p><strong>R$ 8.50</strong></p>
+            <button class="btn btn-buy">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/350x200.png?text=Sorvete+Baunilha" class="card-img-top product-img" alt="Sorvete de Baunilha">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Baunilha</h5>
+            <p class="card-text">Sorvete cremoso de baunilha, com um toque suave de sabor.</p>
+            <p><strong>R$ 7.99</strong></p>
+            <button class="btn btn-buy">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Lateral - Produtos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar {
+      height: 100vh;
+      width: 80px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #e9ecef;
+      padding-top: 1rem;
+      text-align: center;
+    }
+    .sidebar a {
+      color: #343a40;
+      display: block;
+      padding: 20px 0;
+      font-size: 20px;
+    }
+    .sidebar a:hover {
+      background-color: #ced4da;
+      color: #000;
+      text-decoration: none;
+    }
+    .content {
+      margin-left: 80px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <a href="index.html" data-toggle="tooltip" title="Início"><i class="fas fa-home"></i></a>
+    <a href="#" data-toggle="tooltip" title="Perfil"><i class="fas fa-user"></i></a>
+    <a href="cadastrar_produto.html" data-toggle="tooltip" title="Cadastrar Produto"><i class="fas fa-plus"></i></a>
+    <a href="listar_produto.html" data-toggle="tooltip" title="Listar Produtos"><i class="fas fa-list"></i></a>
+    <a href="#" data-toggle="tooltip" title="Configurações"><i class="fas fa-cog"></i></a>
+    <a href="#" data-toggle="tooltip" title="Sair"><i class="fas fa-sign-out-alt"></i></a>
+  </div>
+
+  <div class="content">
+    <div class="container mt-4">
+      <h2 class="mb-4">Lista de Sorvetes</h2>
+  
+      <table class="table table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Sabor</th>
+            <th>Preço (R$)</th>
+            <th>Estoque</th>
+            <th>Descrição</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sorvete de Chocolate</td>
+            <td>Chocolate</td>
+            <td>9.99</td>
+            <td>30</td>
+            <td>Cremoso, com pedaços de chocolate meio amargo.</td>
+            <td>
+              <button class="btn btn-sm btn-warning" title="Alterar">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger" title="Excluir">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sorvete de Morango</td>
+            <td>Morango</td>
+            <td>8.50</td>
+            <td>20</td>
+            <td>Natural, feito com morangos frescos.</td>
+            <td>
+              <button class="btn btn-sm btn-warning" title="Alterar">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger" title="Excluir">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+
+</body>
+</html>
+
