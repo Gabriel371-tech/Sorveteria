@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu de Sorvetes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #fff8f0;
+    }
+
+    .product-card {
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .btn-buy {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+    }
+
+    .btn-buy:hover {
+      background-color: #ff85c1;
+    }
+
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+      border-radius: 0 0 20px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ffe4e1;
+      border-top: 1px solid #ffcccc;
+    }
+  </style>
+</head>
+<body>
+
+    <header class="d-flex align-items-center justify-content-center gap-3">
+        <a href="home.html" class="text-white fs-4">
+          <i class="bi bi-arrow-left-circle-fill"></i>
+        </a>
+        <div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+          <h1 class="mb-0">Cardapio de Sorvetes</h1>
+          <p class="mb-0">Escolha o seu sabor favorito!</p>
+        </div>
+      </header>
+      
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/img/vista-lateral-de-sorvete-de-chocolate-com-nozes-e-waffel.jpg" class="card-img-top product-img" alt="Sorvete de Chocolate">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Chocolate</h5>
+            <p class="card-text">Delicioso sorvete de chocolate com peda�os de chocolate amargo.</p>
+            <p><strong>R$ 9,99</strong></p>
+            <button class="btn btn-buy">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/img/sobremesa-de-morango-com-chantilly-chocolate-e-morango-na-mesa.jpg" class="card-img-top product-img" alt="Sorvete de Morango">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Morango</h5>
+            <p class="card-text">Sorvete de morango natural, feito com morangos frescos.</p>
+            <p><strong>R$ 8,50</strong></p>
+            <button class="btn btn-buy">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/img/sorvete-cremoso-cremoso-e-cremoso-cremoso-apetitoso-com-colher-de-sorvete-fechar-se-horizontal-com-espaco-de-copia.jpg" class="card-img-top product-img" alt="Sorvete de Baunilha">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete de Baunilha</h5>
+            <p class="card-text">Sorvete cremoso de baunilha, com um toque suave de sabor.</p>
+            <p><strong>R$ 7,99</strong></p>
+            <button class="btn btn-buy">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sorveteria Cool Cone. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
